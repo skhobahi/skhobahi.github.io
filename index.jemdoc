@@ -1,0 +1,77 @@
+# jemdoc: showsource
+# jemdoc: menu{MENU}{}
+= Shahin Khobahi
+{{<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />}}
+~~~
+{}{img_left}{IMG-2284.jpg}{Shahin Khobahi}
+==  
+PhD Candidate,
+\n [https://ece.uic.edu Department of Electrical and Computer Engineering]
+\n[http://www.uic.edu University of Illinois at Chicago]
+==  
+\nE-Mail: skhoba2 \[at\] uic \[dot\] edu
+\n\nGoogle Scholar: [https://scholar.google.com/citations?user=BQBF7QoAAAAJ&hl=en&oi=ao Link]
+\n\nGitHub: [https://github.com/skhobahi https:\/\/github.com/skhobahi]
+~~~
+
+
+== About Me
+- I received my B.Sc. degree in Electrical and Computer Engineering from the [https://www.iut.ac.ir/en Isfahan University of Technology (IUT)], Isfahan, Iran, in 2016.
+- I am working towards my PhD degree under the supervision of [https://msol.people.uic.edu Prof. Mojtaba Soltanalian] at the Department of Electrical and Computer Engineering (ECE), 
+[https://uic.edu University of Illinois at Chicago (UIC)], Chicago, IL, USA.
+- I was the recipient of the prestigious Wexler Award for 2016-2017. 
+
+== Research 
+My research interests include Optimization Theory, Statistical Signal Processing, Machine Learning, and their applications.
+- Optimization Theory
+- Statistical Signal Processing
+- Machine Learning
+- Theory of Deep Learning
+- Model-Based Deep Learning
+- Radar Signal Processing
+
+== Publications
+
+=== Journal Papers:
+~~~
+{}{table}{TABLENAME}
+ |Author(s)  | Title | Journal | Info ||
+ J4 |*S. Khobahi*, A. Bose, A. R. Trivedi, and M. Soltanalian | Towards Interpretable Deep Learning Frameworks for Non-Convex Optimization and Signal Processing | IEEE Signal Processing Magazine | Submitted, 2019. ||
+
+
+ J3 | *S. Khobahi*, M. Soltanalian, F. Jiang, and A. Swindlehurst | Optimized Transmission for Parameter Estimation in Wireless Sensor Networks | IEEE Transactions on Signal and Information Processing over Networks | In press, 2019.||
+
+
+  J2 | *S. Khobahi* and M. Soltanalian | One-Bit Signal Recovery via Adaptive Thresholding | IEEE Transactions on Signal Processing | Submitted, 2019. ||
+
+
+  J1 | M. M. Naghsh, E. Alian, *S. Khobahi*, and O. Rezaei | A Majorization–Minimization Approach for Reducing Out-of-Band Radiations in OFDM Systems | IEEE Communication Letters | vol. 21, no. 8, pp. 1739-1742, Aug. 2017. \[[https://ieeexplore.ieee.org/document/7898464 IEEE Xplore]\]
+~~~
+
+
+
+=== Peer-Reviewed Conference Papers:
+
+Note: /Authors marked with *, are contributed equally to the paper./
+
+~~~
+{}{table}{TABLENAME}
+ |Author(s)  | Title | Conference | Info ||
+ C4 | A. Bose\*, *S. Khobahi*\*, and M. Soltanalian | Joint Optimization of Waveform Covariance Matrix and Antenna Selection for MIMO Radar	
+ | IEEE Asilomar Conference on Signals, Systems, and Computers 2019 | Pacific Grove, CA, 2019. Accepted.
+ \n \[[https://www2.securecms.com/Asilomar2019/Papers/ViewPapers_MS.asp?PaperNum=1212 Link]\] ||
+
+
+ C3 | *S. Khobahi*, N. Naimipour, M. Soltanalian, and Y. C. Eldar | Deep Signal Recovery with One-Bit Quantization
+ | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2019 | Brighton, UK, 2019.
+\n \[[https://arxiv.org/abs/1812.00797 Preprint]\] \[[https://ieeexplore.ieee.org/document/8683876 IEEE Xplore]\]
+\n \[[https://sigport.org/documents/deep-signal-recovery-one-bit-quantization Slides]\] \[[https://signalprocessingsociety.org/get-involved/speech-and-language-processing/newsletter/icassp-2019-recap In News]\] ||
+
+
+  C2 | *S. Khobahi* and M. Soltanalian | Signal Recovery from 1-Bit Quantized Noisy Samples via Adaptive Thresholding
+ | IEEE Asilomar Conference on Signals, Systems, and Computers 2018 | Pacific Grove, CA, 2018.\n \[[https://arxiv.org/abs/1812.03977 Preprint]\] \[[https://ieeexplore.ieee.org/document/8645383 IEEE Xplore]\] ||
+
+  
+  C1 | *S. Khobahi* and M. Soltanalian | Optimized Transmission for Consensus in Wireless Sensor Networks
+ | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2018 | Calgary, Alberta, Canada, 2018. \[[https://arxiv.org/abs/1807.11631 Preprint]\] \[[https://ieeexplore.ieee.org/document/8461401 IEEE Xplore]\]
+~~~
