@@ -24,10 +24,10 @@ PhD Candidate,
 == Research 
 My research interests include Optimization Theory, Statistical Signal Processing, Machine Learning, and their applications.
 - Optimization Theory
-- Statistical Signal Processing
 - Machine Learning
+- Model-Driven Deep Learning
+- Statistical Signal Processing
 - Theory of Deep Learning
-- Model-Based Deep Learning
 - Radar Signal Processing
 
 == Publications
@@ -45,7 +45,7 @@ My research interests include Optimization Theory, Statistical Signal Processing
   J2 | *S. Khobahi* and M. Soltanalian | One-Bit Signal Recovery via Adaptive Thresholding | IEEE Transactions on Signal Processing | Submitted, 2019. ||
 
 
-  J1 | M. M. Naghsh, E. Alian, *S. Khobahi*, and O. Rezaei | A Majorization–Minimization Approach for Reducing Out-of-Band Radiations in OFDM Systems | IEEE Communication Letters | vol. 21, no. 8, pp. 1739-1742, Aug. 2017. \[[https://ieeexplore.ieee.org/document/7898464 IEEE Xplore]\]
+  J1 | M. M. Naghsh, E. Alian, *S. Khobahi*, and O. Rezaei | A Majorization\-Minimization Approach for Reducing Out-of-Band Radiations in OFDM Systems | IEEE Communication Letters | vol. 21, no. 8, pp. 1739-1742, Aug. 2017. \[[https://ieeexplore.ieee.org/document/7898464 IEEE Xplore]\]
 ~~~
 
 
@@ -57,21 +57,25 @@ Note: /Authors marked with *, are contributed equally to the paper./
 ~~~
 {}{table}{TABLENAME}
  |Author(s)  | Title | Conference | Info ||
- C4 | A. Bose\*, *S. Khobahi*\*, and M. Soltanalian | Joint Optimization of Waveform Covariance Matrix and Antenna Selection for MIMO Radar	
- | IEEE Asilomar Conference on Signals, Systems, and Computers 2019 | Pacific Grove, CA, 2019. Accepted.
- \n \[[https://www2.securecms.com/Asilomar2019/Papers/ViewPapers_MS.asp?PaperNum=1212 Link]\] ||
+ 
+ 
+ C5 | *S. Khobahi*, A. Bose, and M. Soltanalian | Deep One-Bit Compressive Autoencoding	
+ | 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | Submitted, 2019. ||
+ 
 
-
- C3 | *S. Khobahi*, N. Naimipour, M. Soltanalian, and Y. C. Eldar | Deep Signal Recovery with One-Bit Quantization
- | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2019 | Brighton, UK, 2019.
+ C4 | *S. Khobahi*, N. Naimipour, M. Soltanalian, and Y. C. Eldar | Deep Signal Recovery with One-Bit Quantization
+ | 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | Brighton, UK, 2019.
 \n \[[https://arxiv.org/abs/1812.00797 Preprint]\] \[[https://ieeexplore.ieee.org/document/8683876 IEEE Xplore]\]
 \n \[[https://sigport.org/documents/deep-signal-recovery-one-bit-quantization Slides]\] \[[https://signalprocessingsociety.org/get-involved/speech-and-language-processing/newsletter/icassp-2019-recap In News]\] ||
 
+ C3 | A. Bose\*, *S. Khobahi*\*, and M. Soltanalian | Joint Optimization of Waveform Covariance Matrix and Antenna Selection for MIMO Radar	
+ | 2019 IEEE Asilomar Conference on Signals, Systems, and Computers | Pacific Grove, CA, 2019.
+ \n \[[https://arxiv.org/pdf/1910.07591 Preprint]\] ||
 
   C2 | *S. Khobahi* and M. Soltanalian | Signal Recovery from 1-Bit Quantized Noisy Samples via Adaptive Thresholding
- | IEEE Asilomar Conference on Signals, Systems, and Computers 2018 | Pacific Grove, CA, 2018.\n \[[https://arxiv.org/abs/1812.03977 Preprint]\] \[[https://ieeexplore.ieee.org/document/8645383 IEEE Xplore]\] ||
+ | 2018 IEEE Asilomar Conference on Signals, Systems, and Computers | Pacific Grove, CA, 2018.\n \[[https://arxiv.org/abs/1812.03977 Preprint]\] \[[https://ieeexplore.ieee.org/document/8645383 IEEE Xplore]\] ||
 
   
   C1 | *S. Khobahi* and M. Soltanalian | Optimized Transmission for Consensus in Wireless Sensor Networks
- | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2018 | Calgary, Alberta, Canada, 2018. \[[https://arxiv.org/abs/1807.11631 Preprint]\] \[[https://ieeexplore.ieee.org/document/8461401 IEEE Xplore]\]
+ | 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | Calgary, Alberta, Canada, 2018. \n \[[https://arxiv.org/abs/1807.11631 Preprint]\] \[[https://ieeexplore.ieee.org/document/8461401 IEEE Xplore]\]
 ~~~
