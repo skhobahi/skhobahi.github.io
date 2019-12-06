@@ -36,7 +36,12 @@ My research interests include Optimization Theory, Statistical Signal Processing
 ~~~
 {}{table}{TABLENAME}
  |Author(s)  | Title | Journal | Info ||
- J4 |*S. Khobahi*, A. Bose, A. R. Trivedi, and M. Soltanalian | Towards Interpretable Deep Learning Frameworks for Non-Convex Optimization and Signal Processing | IEEE Signal Processing Magazine | Submitted, 2019.||
+ J5 |*S. Khobahi* and M. Soltanalian | Model-Aware Deep Architectures for One-Bit Compressive Variational Autoencoding
+ | IEEE Transactions on Signal Prcessing | Submitted, 2019. \n \[[https://arxiv.org/abs/1911.12410 Preprint]\]||
+
+ 
+ 
+ J4 |*S. Khobahi*, A. Bose, A. R. Trivedi, and M. Soltanalian | Towards Interpretable Deep Learning Frameworks for Non-Convex Optimization and Signal Processing | IEEE Signal Processing Magazine | Submitted, 2019. ||
 
 
  J3 | *S. Khobahi*, M. Soltanalian, F. Jiang, and A. Swindlehurst | Optimized Transmission for Parameter Estimation in Wireless Sensor Networks | IEEE Transactions on Signal and Information Processing over Networks | In press, 2019.\n \[[https://arxiv.org/abs/1908.00600 Preprint]\] ||
