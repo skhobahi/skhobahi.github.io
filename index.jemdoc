@@ -63,6 +63,9 @@ Note: /Authors marked with *, are contributed equally to the paper./
 {}{table}{TABLENAME}
  |Author(s)  | Title | Conference | Info ||
  
+  C6 | *S. Khobahi*, A. Bose, and M. Soltanalian | Deep Radar Waveform Design for Efficient Automotive Radar Sensing | 11th IEEE Sensor Array and Multichannel Signal Processing Workshop 
+  | Hangzhou, China, 2019. Submitted. Invited. \n \[[https://arxiv.org/abs/1912.08180 Preprint]\]||
+
  
  C5 | *S. Khobahi*, A. Bose, and M. Soltanalian | Deep One-Bit Compressive Autoencoding	
  | 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | Submitted, 2019. \n \[[http://arxiv.org/abs/1912.05539 Preprint]\]||
