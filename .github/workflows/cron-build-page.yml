@@ -14,21 +14,48 @@
 
 
 
-name: Build on Push
+# name: Build on Push
+
+# on:
+#   push:
+#     branches:
+#       - main  # Replace with 'main' if your default branch is named 'main'
+
+# jobs:
+#   curl:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Send request to Github API to build pages
+#       uses: wei/curl@master
+#       with:
+#         args: "-X POST -H 'Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/skhobahi/skhobahi.github.io/pages/builds"
+
+
+name: Trigger GitHub Pages Build on Push
 
 on:
   push:
     branches:
-      - main  # Replace with 'main' if your default branch is named 'main'
+      - main  # Change this to 'main' if your default branch is 'main'
 
 jobs:
-  curl:
+  trigger-build:
     runs-on: ubuntu-latest
+
     steps:
-    # - name: Send request to Github API to build pages
-    #   uses: wei/curl@master
-    #   with:
-    #     args: "-X POST -H 'Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/skhobahi/skhobahi.github.io/pages/builds"
-    - name: Send request to Github API to build pages
-      run: |
-    curl -X POST -H "Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}" -H "Accept: application/vnd.github.ant-man-preview+json" https://api.github.com/repos/skhobahi/skhobahi.github.io/pages/builds
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      # This step sets up a Ruby environment, which might be necessary for Jekyll builds or other Ruby-based actions
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7 # Use the Ruby version that matches your Jekyll project requirements
+
+      # This step triggers the GitHub Pages build
+      - name: Trigger GitHub Pages Build
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}" -H "Accept: application/vnd.github+json" https://api.github.com/repos/${{ github.repository }}/pages/builds
+
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
