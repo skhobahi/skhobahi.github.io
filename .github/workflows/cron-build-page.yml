@@ -26,6 +26,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Send request to Github API to build pages
-      uses: wei/curl@main
+      uses: wei/curl@master
       with:
         args: "-X POST -H 'Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/skhobahi/skhobahi.github.io/pages/builds"
