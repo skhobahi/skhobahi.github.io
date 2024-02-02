@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="divider">
+    <div class="left">
+      <img id="profilepic" width="200" height="200" src="assets/profile.png" alt="Profile">
+    </div>
+    <div class="right">
+      <p>Hi! I'm Shahin Khobahi, and welcome to my website!</p>
+      <p>
+      I have a Ph.D. in Electrical and Computer Engineering with a special focus on Artificial Intelligence, Signal Processing, and Information Theory.
+      </p>
+      <p>
+        My work is driven by a passion for understanding the intricate relationship between signal processing, mathematical optimization and AI — how each can inform and enrich the other. 
+       </p>
+       <p> 
+        I welcome discussions and collaborations, so please feel free to reach out!
+      </p>
+  
+    </div>
+  </div>
+
+
+  &nbsp;
+
+  <hr>
+
+  &nbsp;
+
+  <h2>Recent Posts</h2>
+
+  <ul class="post-list">
+    {% assign mainPosts = site.posts | where: 'type', 'post' %}
+    {% for post in mainPosts limit:3 %}
+    <li>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      <span class="post-meta">{{ post.date | date: date_format }} &verbar; {{ post.category | capitalize }}</span>
+
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+      <p style="color:#828282">{{ post.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

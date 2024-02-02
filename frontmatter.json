@@ -1,0 +1,111 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "projects",
+      "path": "[[workspace]]/projects/_posts"
+    },
+    {
+      "title": "notebook",
+      "path": "[[workspace]]/notebook/_posts"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Artificial Intelligence",
+    "AI Applications",
+    "Signal Processing",
+    "Digital Signal Processing",
+    "Mathematical Optimization",
+    "Linear Programming",
+    "Non-Linear Optimization",
+    "Economic Finance",
+    "Financial Modeling",
+    "Information Theory",
+    "Entropy",
+    "Data Compression",
+    "Deep Learning",
+    "Neural Networks",
+    "Convolutional Neural Networks",
+    "Recurrent Neural Networks",
+    "Machine Learning",
+    "Supervised Learning",
+    "Unsupervised Learning",
+    "Reinforcement Learning",
+    "Statistics",
+    "Statistical Analysis",
+    "Bayesian Methods",
+    "Predictive Modeling",
+    "Data Analysis",
+    "Quantitative Research",
+    "Algorithm Development",
+    "Computational Intelligence",
+    "Data Mining",
+    "Big Data",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Robotics",
+    "Autonomous Systems",
+    "Smart Technology",
+    "Internet of Things",
+    "Quantitative Finance",
+    "Risk Management",
+    "Econometrics",
+    "Game Theory",
+    "Decision Theory",
+    "Predictive Analytics",
+    "Time Series Analysis",
+    "Statistical Learning Theory",
+    "Pattern Recognition",
+    "Data Visualization"
+],
+
+  "frontMatter.taxonomy.categories": []
+}
