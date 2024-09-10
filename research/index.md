@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research work
-description: Research work of Lester James V. Miranda
+description: Research work of Shahin Khobahi
 permalink: /research/
 ---
 
